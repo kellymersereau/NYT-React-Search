@@ -1,0 +1,36 @@
+{
+  "name": "nty-react-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellymersereau/NYT-React-Search.git"
+  },
+  "author": "Kelly Mersereau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellymersereau/NYT-React-Search/issues"
+  },
+  "homepage": "https://github.com/kellymersereau/NYT-React-Search#readme",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.5.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "request": "^2.72.0",
+    "webpack": "^1.13.1"
+  }
+}
