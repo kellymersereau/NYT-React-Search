@@ -10,6 +10,6 @@ var routes = require('./config/routes');
 
 ReactDOM.render(
 
-	<Router> {routes} </Router>,
+	<Router routes={routes} />,
 	document.getElementById('app')
 )

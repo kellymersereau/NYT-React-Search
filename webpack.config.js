@@ -14,7 +14,7 @@ var config = {
    module : {
     loaders : [
       {
-        test : /\.jsx?/,
+        test : /\.jsx?$/,
         include : APP_DIR,
         loader : 'babel',
         query:
